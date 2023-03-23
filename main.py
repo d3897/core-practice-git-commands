@@ -2,7 +2,7 @@ import pytest
 
 
 def always_returns_true():
-    return None
+    return a(12345)
 
 
 def test_always_returns_true():
